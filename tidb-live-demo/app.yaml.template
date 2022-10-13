@@ -1,0 +1,9 @@
+runtime: python39
+service: leaderboard-demo
+
+env_variables:
+  SQL_USERNAME: user
+  SQL_PASSWORD: pass
+  SQL_ADDRESS: address
+  SQL_PORT: 4000
+  SQL_DB_NAME: github
