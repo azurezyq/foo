@@ -7,7 +7,7 @@ import yaml
 import pymysql
 
 CONFIG_FILE = 'app.yaml'
-INPUT_FILE = 'data/input.csv'
+INPUT_FILE = 'data/input.jsonl'
 
 config = yaml.load(open(CONFIG_FILE), Loader=yaml.BaseLoader)
 env = config['env_variables']
